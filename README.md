@@ -5,7 +5,7 @@
 - **Name:** Klevis Papa
 - **GitHub Username:** Klevis20
 ## Team Members:
-1. Erla Hoxha - GitHub: [GitHub Username]
+1. Erla Hoxha - GitHub: erlahoxha
 2. Emilia Dollani - GitHub: Emilia-dollani
 3. Ersa Mezuraj - GitHub: ersa-mezuraj9
    
