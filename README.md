@@ -14,34 +14,48 @@
 ## Project Title: [Your Project Title]
 
 ## Problem Statement:
-[Clearly express the problem identified based on the need analysis.]
+The healthcare system often lacks user-friendly digital solutions for medical analysis, making it challenging for patients to track their health status and for doctors to manage patient information efficiently. The current process is time-consuming, paper-based, and can lead to delays or mistakes in medical treatment.
 
 ## Solution Proposed:
-[Provide a description of the solution you propose.]
+We propose the development of a web application that allows patients to easily book appointments, access their medical analysis results, and track their health metrics. For doctors, the system will provide tools to manage patient information, appointments, and medical results efficiently.
 
 ## Project Scope:
-- **Aim:** [Specify the aim of your project.]
+- **Aim:** The aim of this project is to streamline the process of medical analysis management in clinics, providing a better user experience for both patients and healthcare providers.
 - **Main Objectives:**
-1. [Objective 1]
-2. [Objective 2]
-3. ...
+  1. Develop a user-friendly interface for patients to book appointments and view medical results.
+  2. Build a dashboard for doctors to manage patient data, appointments, and analysis results.
+  3. Integrate with external lab services to allow patients to view their medical results online.
+  4. Implement secure authentication for both patients and doctors.
 
 ## Application Description:
-[Provide a detailed description of your application, including its functionality,
-features, and any other relevant information.]
+The Clinic Medical Analysis Application will serve as a platform for both patients and doctors. Patients will be able to:
+- Register and manage their profiles.
+- Schedule appointments with doctors.
+- View and download their medical analysis results.
+- Track their health metrics, such as blood pressure, cholesterol, etc.
+
+Doctors will be able to:
+- Manage patient profiles and appointments.
+- View and interpret medical analysis results.
+- Track patient health data and provide recommendations.
 
 # Roles and Tasks Distribution
 
 ## Team Leader:
-[Specify the main responsibilities and tasks assigned to the team leader.]
+  - Oversee the project development and ensure all deadlines are met.
+  - Coordinate between team members and ensure efficient communication.
+  - Handle project documentation, including the final review of the README file.
 
 ## Main Roles and Tasks:
-1. [Team Member 1] - [Role and Tasks Assigned]
-2. [Team Member 2] - [Role and Tasks Assigned]
-3. [Team Member 3] - [Role and Tasks Assigned]
-4. [Team Member 4] - [Role and Tasks Assigned]
-5. [Team Member 5] - [Role and Tasks Assigned]
-6. [Team Member 6] - [Role and Tasks Assigned]
+1. Erla Hoxha
+   - Design and develop the user interface using React.js.
+   - Ensure the app is responsive and user-friendly for both patients and doctors.
+3. Emilia Dollani
+   - Develop the server-side logic and APIs using Node.js and Express.js.
+   - Handle user authentication and integrate the database (MongoDB).
+5. Ersa Mezuraj
+   - Design and manage the database schema.
+   - Implement secure storage for patient data and medical results.
 
 # Deadline
 Submission Deadline: 15.03.2025, 23:59 hours.
