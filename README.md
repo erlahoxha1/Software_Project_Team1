@@ -1,5 +1,5 @@
 # Team Information
-## Team Name: Gango
+## Team Name: SE_Project_Team1
 
 ## Team Leader:
 - **Name:** Klevis Papa
@@ -11,7 +11,7 @@
    
 # Project Details
 
-## Project Title: [Your Project Title]
+## Project Title: Clinic Medical Analysis Application
 
 ## Problem Statement:
 The healthcare system often lacks user-friendly digital solutions for medical analysis, making it challenging for patients to track their health status and for doctors to manage patient information efficiently. The current process is time-consuming, paper-based, and can lead to delays or mistakes in medical treatment.
