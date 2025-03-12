@@ -7,7 +7,7 @@
 
 ## Team Members:
 1. Erla Hoxha - GitHub: [GitHub Username]
-2. Emilia Dollani - GitHub: [GitHub Username]
+2. Emilia Dollani - GitHub: Emilia-dollani
 3. Ersa Mezuraj - GitHub: [GitHub Username]
    
 # Project Details
