@@ -57,16 +57,16 @@ This marketplace will serve individual car owners, automotive electricians, and 
 
 ### **Main Roles and Tasks:**  
 
-#### **1. [Erla Hoxha] - Requirements Specification & Testing**  
+#### **1. Erla Hoxha - Requirements Specification & Testing**  
 - Gather and document functional and non-functional requirements.  
 - Conduct need analysis and research.  
 - Plan and execute testing strategies.  
 
-#### **2. [Emilia Dollani] - Modeling & Development**  
+#### **2. Emilia Dollani - Modeling & Development**  
 - Design system architecture and database structure.  
 - Develop core functionalities and backend logic.  
 
-#### **3. [Ersa Mëzuraj] - Development & Deployment**  
+#### **3. Ersa Mëzuraj - Development & Deployment**  
 - Implement the frontend UI/UX.  
 - Set up and manage deployment on a cloud platform.  
 - Ensure continuous integration and maintenance planning.  
