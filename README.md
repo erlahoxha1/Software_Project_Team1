@@ -30,7 +30,7 @@ We propose developing an online marketplace where users can buy and sell car par
 - Communicate with sellers via chat or messaging.  
 - Secure transactions and manage orders.  
 - Rate and review sellers to ensure credibility.  
-- **Use machine learning to identify car parts from images**: Users can upload a photo or take a picture of a car part they need but do not know the name of. The app will analyze the image, determine the part’s name, identify which car it belongs to, and show relevant offers from sellers (shops, automotive electricians, or individuals).  
+- Use machine learning to identify car parts from images: Users can upload a photo or take a picture of a car part they need but do not know the name of. The app will analyze the image, determine the part’s name, identify which car it belongs to, and show relevant offers from sellers (shops, automotive electricians, or individuals).  
 
 ### **Project Scope**  
 - **Aim:** To create a user-friendly and reliable marketplace for buying and selling car parts.  
@@ -57,16 +57,16 @@ This marketplace will serve individual car owners, automotive electricians, and 
 
 ### **Main Roles and Tasks:**  
 
-#### **1. [Member 1] - Requirements Specification & Testing**  
+#### **1. [Erla Hoxha] - Requirements Specification & Testing**  
 - Gather and document functional and non-functional requirements.  
 - Conduct need analysis and research.  
 - Plan and execute testing strategies.  
 
-#### **2. [Member 2] - Modeling & Development**  
+#### **2. [Emilia Dollani] - Modeling & Development**  
 - Design system architecture and database structure.  
 - Develop core functionalities and backend logic.  
 
-#### **3. [Member 3] - Development & Deployment**  
+#### **3. [Ersa Mëzuraj] - Development & Deployment**  
 - Implement the frontend UI/UX.  
 - Set up and manage deployment on a cloud platform.  
 - Ensure continuous integration and maintenance planning.  
