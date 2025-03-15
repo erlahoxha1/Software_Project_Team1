@@ -1,64 +1,83 @@
-# Team Information
-## Team Name: SE_Project_Team1
+# Car Electric Parts Marketplace  
 
-## Team Leader:
-- **Name:** Klevis Papa
-- **GitHub Username:** Klevis20
-## Team Members:
-1. Erla Hoxha - GitHub: erlahoxha
-2. Emilia Dollani - GitHub: Emilia-dollani
-3. Ersa Mezuraj - GitHub: ersa-mezuraj9
-   
-# Project Details
+## Team Information  
 
-## Project Title: Clinic Medical Analysis Application
+### Team Name: SE_Project_Team1  
 
-## Problem Statement:
-The healthcare system often lacks user-friendly digital solutions for medical analysis, making it challenging for patients to track their health status and for doctors to manage patient information efficiently. The current process is time-consuming, paper-based, and can lead to delays or mistakes in medical treatment.
+### Team Leader:  
+- **Name:** Klevis Papa  
+- **GitHub Username:** [Klevis20](https://github.com/Klevis20)  
 
-## Solution Proposed:
-We propose the development of a web application that allows patients to easily book appointments, access their medical analysis results, and track their health metrics. For doctors, the system will provide tools to manage patient information, appointments, and medical results efficiently.
+### Team Members:  
+1. **Erla Hoxha** - GitHub: [erlahoxha](https://github.com/erlahoxha)  
+2. **Emilia Dollani** - GitHub: [Emilia-dollani](https://github.com/Emilia-dollani)  
+3. **Ersa Mezuraj** - GitHub: [ersa-mezuraj9](https://github.com/ersa-mezuraj9)  
 
-## Project Scope:
-- **Aim:** The aim of this project is to streamline the process of medical analysis management in clinics, providing a better user experience for both patients and healthcare providers.
-- **Main Objectives:**
-  1. Develop a user-friendly interface for patients to book appointments and view medical results.
-  2. Build a dashboard for doctors to manage patient data, appointments, and analysis results.
-  3. Integrate with external lab services to allow patients to view their medical results online.
-  4. Implement secure authentication for both patients and doctors.
+---
 
-## Application Description:
-The Clinic Medical Analysis Application will serve as a platform for both patients and doctors. Patients will be able to:
-- Register and manage their profiles.
-- Schedule appointments with doctors.
-- View and download their medical analysis results.
-- Track their health metrics, such as blood pressure, cholesterol, etc.
+## Project Details  
 
-Doctors will be able to:
-- Manage patient profiles and appointments.
-- View and interpret medical analysis results.
-- Track patient health data and provide recommendations.
+### **Project Title:** Car Electric Parts Marketplace  
 
-# Roles and Tasks Distribution
+### **Problem Statement**  
+The process of buying and selling car electric parts is often inefficient, with buyers struggling to find quality parts at reasonable prices and sellers lacking a dedicated platform to reach potential customers. Existing solutions are either too general or lack transparency regarding product quality and availability.  
 
-## Team Leader:
-  - Oversee the project development and ensure all deadlines are met.
-  - Coordinate between team members and ensure efficient communication.
-  - Handle project documentation, including the final review of the README file.
+### **Solution Proposed**  
+We propose developing an online marketplace where users can buy and sell car parts efficiently. The platform will allow users to:  
 
-## Main Roles and Tasks:
-1. Erla Hoxha
-   - Design and develop the user interface using React.js.
-   - Ensure the app is responsive and user-friendly for both patients and doctors.
-3. Emilia Dollani
-   - Develop the server-side logic and APIs using Node.js and Express.js.
-   - Handle user authentication and integrate the database (MongoDB).
-5. Ersa Mezuraj
-   - Design and manage the database schema.
-   - Implement secure storage for patient data and medical results.
+- List car parts with images, descriptions, and prices.  
+- Search for parts using filters (brand, model, condition, price range, etc.).  
+- Communicate with sellers via chat or messaging.  
+- Secure transactions and manage orders.  
+- Rate and review sellers to ensure credibility.  
+- **Use machine learning to identify car parts from images**: Users can upload a photo or take a picture of a car part they need but do not know the name of. The app will analyze the image, determine the part’s name, identify which car it belongs to, and show relevant offers from sellers (shops, automotive electricians, or individuals).  
 
-# Deadline
-Submission Deadline: 15.03.2025, 23:59 hours.
+### **Project Scope**  
+- **Aim:** To create a user-friendly and reliable marketplace for buying and selling car parts.  
+- **Main Objectives:**  
+  1. Develop a user-friendly platform.  
+  2. Implement user authentication and profile management.  
+  3. Create a robust search and filtering system.  
+  4. Enable communication between buyers and sellers.  
+  5. Implement a secure transaction system.  
+  6. Develop an ML-based image recognition feature for car parts.  
+  7. Ensure the platform is scalable and secure.  
 
-# Additional Notes
-[Include any additional notes or instructions for the submission.]
+### **Application Description**  
+This marketplace will serve individual car owners, automotive electricians, and businesses looking for car parts. The platform will feature an intuitive UI, enabling users to browse, search, and post car parts efficiently. Key functionalities include user authentication, product listings, messaging, and a review system. Additionally, the ML-powered image recognition feature will assist users in identifying car parts, making the buying process even more convenient.  
+
+---
+
+## **Roles and Tasks Distribution**  
+
+### **Team Leader:**  
+- Oversees the project timeline and progress.  
+- Ensures proper communication and collaboration among team members.  
+- Reviews and integrates contributions from all members.  
+
+### **Main Roles and Tasks:**  
+
+#### **1. [Member 1] - Requirements Specification & Testing**  
+- Gather and document functional and non-functional requirements.  
+- Conduct need analysis and research.  
+- Plan and execute testing strategies.  
+
+#### **2. [Member 2] - Modeling & Development**  
+- Design system architecture and database structure.  
+- Develop core functionalities and backend logic.  
+
+#### **3. [Member 3] - Development & Deployment**  
+- Implement the frontend UI/UX.  
+- Set up and manage deployment on a cloud platform.  
+- Ensure continuous integration and maintenance planning.  
+- Work on ML model integration for car part identification.  
+
+---
+
+## **Deadline**  
+📅 **Submission Deadline:** 15.03.2025, 23:59 hours.  
+
+---
+
+## **Additional Notes**  
+[Include any additional notes or instructions for the submission.]  
