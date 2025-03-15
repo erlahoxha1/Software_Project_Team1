@@ -78,6 +78,3 @@ This marketplace will serve individual car owners, automotive electricians, and 
 📅 **Submission Deadline:** 15.03.2025, 23:59 hours.  
 
 ---
-
-## **Additional Notes**  
-[Include any additional notes or instructions for the submission.]  
