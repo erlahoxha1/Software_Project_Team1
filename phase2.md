@@ -188,8 +188,6 @@ The system is designed as a mobile-centric, client–server architecture. The mo
 - Payment Gateway: Processes payments securely via PayPal.
 - Deployment Platform: Hosts the entire backend ecosystem and scales resources as required.
 
-![ARCHITECTURE] (erlahoxha1/Software_Project_Team1/phase2_images/Architecture_Diagram.png)
-
 ### b. Database Model
 ## Users Table (users)
 - Stores information about buyers who register to search for car parts.
