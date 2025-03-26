@@ -181,12 +181,15 @@ Once the correct part is selected, review the available listings, compare prices
 
 ### a. Architecture
 The system is designed as a mobile-centric, client–server architecture. The mobile app is built using Flutter (Dart) and will run on both iOS and Android devices. The backend is developed in Python (using Visual Studio as the IDE) with PostgreSQL as the database. Additional components include a machine learning module (potentially using Django for integration), PayPal for secure payment processing, and deployment on AWS or GCP to ensure scalability. This module allows for future enhancements and flexible integration of additional services.
-Mobile Client: The Flutter app sends API requests to the backend server.
-Backend API Server: Processes requests, manages business logic, and interacts with both the PostgreSQL database and the ML module.
-Database: Stores data for users, products, and orders.
-Machine Learning Module: Offers ML-powered features via RESTful calls.
-Payment Gateway: Processes payments securely via PayPal.
-Deployment Platform: Hosts the entire backend ecosystem and scales resources as required.
+- Mobile Client: The Flutter app sends API requests to the backend server.
+- Backend API Server: Processes requests, manages business logic, and interacts with both the PostgreSQL database and the ML module.
+- Database: Stores data for users, products, and orders.
+- Machine Learning Module: Offers ML-powered features via RESTful calls.
+- Payment Gateway: Processes payments securely via PayPal.
+- Deployment Platform: Hosts the entire backend ecosystem and scales resources as required.
+
+![ARCHITECTURE!](erlahoxha1/Software_Project_Team1/phase2_images/Architecture Diagram.png)
+
 ### b. Database Model
 ## Users Table (users)
 - Stores information about buyers who register to search for car parts.
@@ -230,10 +233,14 @@ Password Reset & Communication:
 
 ### c. Technologies Used
 ✔ Django/Flask (Python) – Best for integrating ML models easily.
+
 ✔ PostgreSQL – Structured database for e-commerce (products, orders, customers).
+
 ✔ Flutter + REST API – Smooth communication between frontend and backend.
+
 ✔ Stripe/PayPal API – Secure and trusted payment processing.
 ### d. User Interface Design
+
 ### e. Security Measures
 To ensure a secure user experience, the application implements multiple security measures and protocols. Encryption is enforced using SSL/TLS to protect data transmitted between the mobile client and the backend, preventing unauthorized interception. Authentication is handled through a secure login system with hashed passwords (e.g., bcrypt) and optional multi-factor authentication (MFA) for enhanced security. Data protection is ensured by encrypting sensitive user information in the PostgreSQL database, reducing the risk of breaches. Payment security is managed via PayPal, which provides built-in fraud detection and secure transaction processing. Additionally, role-based access control (RBAC) restricts user permissions, preventing unauthorized access to critical system functions. Regular security audits and penetration testing will be conducted to identify and mitigate vulnerabilities, ensuring the system remains resilient against threats.
 
