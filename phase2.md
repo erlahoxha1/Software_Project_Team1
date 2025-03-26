@@ -34,27 +34,27 @@ Machine Learning Module: Offers ML-powered features via RESTful calls.
 Payment Gateway: Processes payments securely via PayPal.
 Deployment Platform: Hosts the entire backend ecosystem and scales resources as required.
 ### b. Database Model
-Users Table (users)
+## Users Table (users)
 - Stores information about buyers who register to search for car parts.
 - Primary Key: user_id
 - Relationships: No direct foreign keys, but related to orders.
-Sellers Table (sellers)
+## Sellers Table (sellers)
 - Stores details of companies selling car parts.
 - Primary Key: seller_id
 - Relationships: Connected to car_parts table.
-Car Parts Table (car_parts)
+## Car Parts Table (car_parts)
 - Stores scraped car part data and connects them to sellers.
 - Primary Key: part_id
 - Foreign Key: seller_id (references sellers.seller_id)
-Photo Table (photos)
+## Photo Table (photos)
 - Keep track of product photos.
 - Primary Key: photo_id
 - Foreign Keys: part_id(references parts)
-Orders Table (orders)
+## Orders Table (orders)
 - Tracks purchases made by users.
 - Primary Key: order_id
 - Foreign Keys: user_id (references users), part_id (references car_parts)
-Searches Table (searches)
+## Searches Table (searches)
 - Stores user search queries for analytics and recommendations.
 - Primary Key: search_id
 - Foreign Key: user_id (references users)
