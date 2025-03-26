@@ -74,8 +74,11 @@ Password Reset & Communication:
 5. Car parts can be associated with multiple orders.
 6. Users must be logged in to search or place orders.
 
-
 ### c. Technologies Used
+✔ Django/Flask (Python) – Best for integrating ML models easily.
+✔ PostgreSQL – Structured database for e-commerce (products, orders, customers).
+✔ Flutter + REST API – Smooth communication between frontend and backend.
+✔ Stripe/PayPal API – Secure and trusted payment processing.
 ### d. User Interface Design
 ### e. Security Measures
 To ensure a secure user experience, the application implements multiple security measures and protocols. Encryption is enforced using SSL/TLS to protect data transmitted between the mobile client and the backend, preventing unauthorized interception. Authentication is handled through a secure login system with hashed passwords (e.g., bcrypt) and optional multi-factor authentication (MFA) for enhanced security. Data protection is ensured by encrypting sensitive user information in the PostgreSQL database, reducing the risk of breaches. Payment security is managed via PayPal, which provides built-in fraud detection and secure transaction processing. Additionally, role-based access control (RBAC) restricts user permissions, preventing unauthorized access to critical system functions. Regular security audits and penetration testing will be conducted to identify and mitigate vulnerabilities, ensuring the system remains resilient against threats.
