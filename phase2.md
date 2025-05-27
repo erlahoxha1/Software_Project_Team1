@@ -188,31 +188,62 @@ The system is designed as a mobile-centric, client–server architecture. The mo
 - Payment Gateway: Processes payments securely via PayPal.
 - Deployment Platform: Hosts the entire backend ecosystem and scales resources as required.
 
-### b. Database Model
+### b. Database Model (MongoDB - Non-Relation)
+The platform uses MongoDB, a document-based NoSQL database. Data is organized into collections, where each record is a document stored in a flexible JSON-like format. This design supports scalability, faster reads, and easier denormalization when needed.
 ## Users Table (users)
-- Stores information about buyers who register to search for car parts.
-- Primary Key: user_id
-- Relationships: No direct foreign keys, but related to orders.
-## Sellers Table (sellers)
-- Stores details of companies selling car parts.
-- Primary Key: seller_id
-- Relationships: Connected to car_parts table.
-## Car Parts Table (car_parts)
-- Stores scraped car part data and connects them to sellers.
-- Primary Key: part_id
-- Foreign Key: seller_id (references sellers.seller_id)
-## Photo Table (photos)
-- Keep track of product photos.
-- Primary Key: photo_id
-- Foreign Keys: part_id(references parts)
-## Orders Table (orders)
-- Tracks purchases made by users.
-- Primary Key: order_id
-- Foreign Keys: user_id (references users), part_id (references car_parts)
-## Searches Table (searches)
-- Stores user search queries for analytics and recommendations.
-- Primary Key: search_id
-- Foreign Key: user_id (references users)
+- Stores customer information for registered users on the platform.
+- Document key: _id(MongoDB’s default unique identifier, typically an ObjectId)
+- Document Structure: -_id
+                      - firstName:
+                      - lastName:
+                      - email:
+                      - password:
+                      - phone:
+                      - address:
+                      - type:
+                      - cart: 
+- This collection is referenced in the orders collection through user_id.
+## Orders Collections (orders)
+- Tracks all product purchases made by users.
+- Document Key: _id
+- Document Structure: - _id:
+                      - products:
+                      - totalPrice:
+                      - address:
+                      - userid:
+                      - orderedAt:
+                      - status:
+                      - __v:        
+- Relationships:
+    Manually references users via userid.
+    May also reference or embed product data in the products array.
+    Each order document links a user to one or more purchased products.
+## Categories Collection (categories)
+- categorizes products into logical groups.
+- Document Key:_id
+- Document Structure: - _id:
+                      - name:
+                      - imageUrl:
+                      - createdAt:
+                      - updatedAt:
+                      - __v:
+- Relationships:
+  Products reference this collection via the category field.
+## Products Collections (porducts)
+- Stores information about car parts listed for sale.
+- Document Key: _id
+- Document Structure: - _id:
+                      - name:
+                      - descreption:
+                      - images:
+                      - quantity:
+                      - price:
+                      - category:
+                      - carBrand:
+                      - carModel:
+                      - carYear:       
+-Relationships:
+  Connected to the categories collection via the category field.
 ## Constraints and Rules
 1. Users & Sellers must have unique emails. We have chosen email as UNIQUE because:
 User & Seller Identification:
