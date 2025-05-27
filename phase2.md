@@ -245,16 +245,17 @@ The platform uses MongoDB, a document-based NoSQL database. Data is organized in
 -Relationships:
   Connected to the categories collection via the category field.
 ## Constraints and Rules
-1. Users & Sellers must have unique emails. We have chosen email as UNIQUE because:
-User & Seller Identification:
-- Email serves as a unique identifier for users and sellers during login.
+1. Users must have unique emails. We have chosen email as UNIQUE because:
+User Identification:
+- Email acts as the primary identifier for user login. It provides a simple, consistent way to authenticate users in the system.
 - No two users or sellers can register with the same email, ensuring security.
 Prevents Duplicate Accounts:
-- If emails were not unique, users/sellers could accidentally create multiple accounts with the same email, causing confusion in authentication.
+- Enforcing uniqueness ensures that no two users can register with the same email. This helps prevent confusion during authentication and ensures account ownership remains clear.
 Password Reset & Communication:
-- Emails are often used for password resets, verification, and notifications.
-- If duplicates existed, it would be unclear which account the reset should apply to.
-2. Each car part must belong to a seller.
+- Emails are essential for actions like password resets, account verification, and system notifications.
+- If duplicates were allowed, the system would not be able to determine which account the message should be sent to.
+- Implementation: A unique index is applied to the email field in the users collection using:
+2. Each product must belong to a category.
 3. Users can order multiple car parts.
 4. A single search belongs to one user.
 5. Car parts can be associated with multiple orders.
